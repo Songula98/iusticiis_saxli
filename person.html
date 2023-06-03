@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    .graph {
+      width: 500px;
+      height: 300px;
+      border: none;
+    }
+    .graph2 {
+      width: 500px;
+      height: 300px;
+      border: none;
+    }
+  </style>
+  <script>
+    function openGraph1() {
+      var graphElement = document.getElementById('graph');
+      graphElement.style.display = 'block';
+      graphElement.innerText = '1)საქართველოს მოქალაქის ბიომეტრიული პასპორტი  ' ;
+      
+    }
+  </script>
+  
+  <script>
+    function openGraph2() {
+      var graphElement = document.getElementById('graph2');
+      graphElement.style.display = 'block';
+      graphElement.innerText = '1)ლტოლვილის სამგზავრო დოკუმენტი  ' ;
+      
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>იუსტიციის სახლი | Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-nav">
+        <div class="phone">
+          <img class="phone-logo" src="img/Vector10.png" alt="">
+          <strong>032 2 405 405</strong>
+        </div>
+        <div class="public-service-hall">
+          <a href="file:///C:/Users/Hp/Desktop/iusticiis/index.html"><img class="hall-logo" src="img/Vector.png" alt=""></a>
+          <h1>იუსტიციის სახლი</h1>
+        </div>
+
+        <div class="frame-44-45">
+          <a href="#"><img src="img/Frame 45.png" alt="" role="button"></a>
+          <a href="#"><img src="img/Frame 44.png" alt="" role="button"></a>
+        </div>
+      </div>
+      <div class="header-image">
+        <img src="img/Frame 11.png" alt="">
+      </div>
+      <hero>
+        <ul>
+          <li>
+            <a id="pasport"><img src="pageimg/Vector 3.png"></a> <p class="pasport">პასპორტი</p>
+            
+  <div id="graph" class="graph" style="display: none;"></div>
+  <script>
+   function closeGraph1() {
+    var graphElement = document.getElementById('graph');
+    graphElement.style.display = 'none';
+    graphElement.innerText = '';
+  }
+
+  var passportButton = document.getElementById('pasport');
+  passportButton.addEventListener('click', function() {
+    var graphElement = document.getElementById('graph');
+    if (graphElement.style.display === 'block') {
+      closeGraph1();
+    } else {
+      openGraph1();
+    }
+  });
+    
+  </script>
+            
+<a id="pasport2"><img src="pageimg/Vector 3.png"></a><p class="pasport">ლტოლვილის სამგზავრო დოკუმენტი</p>
+<div id="graph2" class="graph2" style="display: none;"></div>
+<script>
+  function closeGraph() {
+   var graphElement = document.getElementById('graph2');
+   graphElement.style.display = 'none';
+   graphElement.innerText = '';
+ }
+
+ var passportButton = document.getElementById('pasport2');
+ passportButton.addEventListener('click', function() {
+   var graphElement = document.getElementById('graph2');
+   if (graphElement.style.display === 'block') {
+     closeGraph();
+   } else {
+     openGraph2();
+   }
+ });
+   
+ </script>
+
+
+          </li>
+        </ul>
+
+
+  </header>
+
+
+  <footer>
+  </section>
+    <div>
+      <img src="img/Vector 1.png" alt="">
+    </div>
+    </ul>
+    </nav>
+  
+  
+    <div class="card-secondary2">
+      <img src="img/Frame 73.png" alt="">
+      <div class="card">
+        <img src="img/Frame 67.png" alt="">
+      </div>
+      <script src="script.js"></script>
+    </div>
+   </footer>
+
+</body>
+
+</html>

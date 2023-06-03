@@ -1,0 +1,398 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.buttonstyle
+{
+border: none;
+color: none;
+border: 0px
+
+
+
+
+
+
+}
+
+
+
+
+.body {
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.phone-logo {
+  height: 17.998437881469727px;
+  width: 17.998437881469727px;
+
+}
+
+.public-service-hall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hall-logo {
+  height: 39.99997329711914px;
+  width: 40.000003814697266px;
+
+}
+
+.public-service-hall h1 {
+  font-size: 18px;
+}
+
+.header-image {
+  margin-top: 44.5px;
+}
+
+.services-title {
+  margin-bottom: 22px;
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #00472C;
+
+}
+
+*/ .frame-18 {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 24px;
+  gap: 10px;
+  isolation: isolate;
+  width: 344px;
+  height: 259px;
+  background: linear-gradient(212.23deg, #35E45C -0.12%, #038956 108.02%);
+  border-radius: 18px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Vector 2 */
+.vector2 {
+  /* Vector 2 */
+
+
+  position: absolute;
+  left: 57.04px;
+  top: 1125px;
+
+}
+
+
+
+/* Frame 37 */
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  position: absolute;
+  width: 1108px;
+  height: 1126.36px;
+  left: 129px;
+  top: 100px;
+}
+
+/* Frame 61 */
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 10px;
+  gap: 10px;
+  position: absolute;
+  width: 131px;
+  height: 22px;
+  left: 151px;
+  top: 1246.7px;
+}
+
+/* Frame 67 */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 32px 48px;
+  gap: 24px;
+  position: absolute;
+  width: 341px;
+  height: 349px;
+  left: 900px;
+  top: 0.0px;
+  background: rgba(4, 141, 89, 0.08);
+  border-radius: 18px;
+}
+
+/* Frame 46 */
+.row-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 12px;
+  position: absolute;
+  width: 122px;
+  height: 19px;
+  left: 145.5px;
+  top: 36.5px;
+}
+
+/* Frame 43 */
+.row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  position: absolute;
+  width: 189px;
+  height: 40px;
+  left: 588.5px;
+  top: 26px;
+}
+
+/* Frame 47 */
+.row-start {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 11px;
+  position: absolute;
+  width: 87px;
+  height: 38px;
+  left: 1133.5px;
+  top: 27px;
+}
+
+/* Frame 60 */
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 1366px;
+  height: 185px;
+  left: 0px;
+  top: 1287px;
+}
+
+
+/* Frame 73 */
+.card-secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 32px 48px;
+  gap: 25px;
+  position: absolute;
+  width: 704px;
+  height: 349px;
+  left: 5px;
+  top: 1520px;
+  background: #EBF6F2;
+  border-radius: 18px;
+}
+
+#myButton {
+  position: relative;
+}
+
+#myButton::after {
+  content: 'სარტყელი ამ Button ს';
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  font-size: 12px;
+  color: red;
+}
+
+
+
+.firstimage-line {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.news {
+  margin-top: 42px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #00472C;
+}
+
+.titles-images-news {
+  position: relative;
+}
+
+.left-btn {
+  position: absolute;
+  top: 50%;
+  left: 45px;
+  transform: translate(-50%, -50%);
+  /* border: 4px solid #FFFFFF80; */
+  border: none;
+  background-color: #fdfdfd00;
+}
+
+.right-btn {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  /* border: 4px solid #FFFFFF80; */
+  border: none;
+  background-color: #fdfdfd00;
+}
+
+.news-sec .vector {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  width: 36px;
+  height: 20px;
+  left: 510.5px;
+  top: -8px;
+}
+
+
+.vector10 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0.5px;
+  top: 70px;
+
+}
+
+.სერვისები .number {
+  position: absolute;
+
+  left: 45.5px;
+  top: 5px;
+}
+
+/* .services {
+  position: absolute;
+
+  left: 30.5px;
+  top: 920px;
+} */
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #fdfdfd;
+  padding: 10px;
+  text-align: center;
+}
+
+#services li {
+  margin-bottom: 10px;
+}
+
+.number {
+  position: absolute;
+}
+
+.vector
+{
+ 
+
+
+
+
+transform: rotate(0deg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+.pasport {
+  margin-top: -15px;
+  margin-left: 28.7px;
+  }
+  .card-secondary2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 48px;
+    gap: 25px;
+    position: absolute;
+    width: 704px;
+    height: 349px;
+    left: 5px;
+    top: 450px;
+    background: #EBF6F2;
+    border-radius: 18px;
+  }
